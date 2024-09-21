@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: black;
+}
+.container{
+    position:relative;
+    background: url(pngwing.com.png) no-repeat;
+    background-size: 100%;
+    width:40vw;
+    height:40vw;
+    margin:auto;
+}
+
+.circle{
+    position:absolute;
+    top:46.2%;
+    left:46.2%;
+    width:7.3%;
+    height:7.3%;
+    border-radius:50%;
+    background-color:rgb(228, 73, 12);
+}
+
+#hour{
+    width: 2%;
+    height: 30%;
+    background-color: rgb(219, 25, 25);
+    position: absolute;
+    top: 20%;
+    left: 48.72%;
+    border-radius: 20px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+}
+
+#minute{
+    width: 2%;
+    height: 34%;
+    background-color: rgb(18, 216, 35);
+    position: absolute;
+    top: 15%;
+    left: 48.73%;
+    border-radius: 20px;
+    opacity: 0.8;
+    transform-origin: bottom;
+    
+    
+}
+
+#second{
+    width: 2%;
+    height: 39%;
+    background-color: rgb(180, 219, 3);
+    position: absolute;
+    top: 11%;
+    left: 48.72%;
+    border-radius: 20px;
+    opacity: 0.8;
+    transform-origin:bottom;
+   
+}
